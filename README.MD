@@ -1,0 +1,1 @@
+A chrome extension that allows you to search for text in a YouTube video.

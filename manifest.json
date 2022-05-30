@@ -1,0 +1,6 @@
+{
+  "name": "Searchzy",
+  "description": "An extension to search for text in a YouTube video",
+  "version": "1.0",
+  "manifest_version": 3
+}
