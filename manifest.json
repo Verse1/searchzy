@@ -2,5 +2,15 @@
   "name": "Searchzy",
   "description": "An extension to search for text in a YouTube video",
   "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.youtube.com/watch?*",
+        "https://www.youtube.com/watch?*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": ["http://www.youtube.com/", "https://www.youtube.com/"],
   "manifest_version": 3
 }
