@@ -1,7 +1,7 @@
 {
   "name": "Searchzy",
   "description": "An extension to search for text in a YouTube video",
-  "version": "1.0",
+  "version": "0.1.0",
   "content_scripts": [
     {
       "matches": [
@@ -11,6 +11,11 @@
       "js": ["content.js"]
     }
   ],
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Searchzy",
+    "default_popup": "popup.html"
+  },
   "host_permissions": ["http://www.youtube.com/", "https://www.youtube.com/"],
   "manifest_version": 3
 }
